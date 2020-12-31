@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 35.615 s <<< FAILURE! - in TestSuite
+addNewCustomer(com.inetBanking.testCases.TC_AddCustomerTest_003)  Time elapsed: 13.205 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="addcustomerpage.php">...</a> is not clickable at point (120, 392). Other element would receive the click: <div id="transparentInner" style="cursor: pointer; visibility: inherit; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4); opacity: 1; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); pointer-events: auto;"></div>
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KUNALSURUSHE', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\KUNALS~1.FPL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60783}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9647ddbfacfce9dcd9e8a3c65b094c5c
+	at com.inetBanking.testCases.TC_AddCustomerTest_003.addNewCustomer(TC_AddCustomerTest_003.java:28)
+
